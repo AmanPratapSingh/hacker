@@ -1,0 +1,9 @@
+x=0
+while x<10:
+	if x<2:
+	   print str(x),"less that 2"
+	elif x>=2 and x<8:
+	   print  str(x)," grreater than 2 less than 8"
+	else:
+	   print str(x),"Greater than 8"
+	x+=1
